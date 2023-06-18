@@ -11,26 +11,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name=" viewport" content="width=device-width,
 initial-scale=1.0">
-    <title>Register Page| Pung </title>
+    <title>Register Page| Jutamanee C. </title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
     <link rel ="stylesheet" href="style.css">
     
 </head>
 
     <header>
-        <h2 class="logo">Pung c.</h2>
-        <nav class="navigation">
+        <h2 class="logo">Jutamanee C.</h2>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+        <div class="navigation-items">
             <a href="#">Home</a>
-            <a href="#">About Me</a>
+            <a href="#">Personal Profile</a>
             <a href="#">Experiance</a>
+            <a href="#">Activities</a>
             <a href="#">Skills</a>
             <a href="#">Contact</a>
             <button class="btnLogin-popup">Login</button>
-        </nav>
+        </div>
+        </div>
+</div>
     </header>
 
     <body>
-    
+    <div class="firstpage">
+       <h3><br><a style="color :#211c25 ;">Please login to see my Resume.</a> </h3>
+
     <div class="wrapper">
         <span class="icon-close">
             <ion-icon name="close"></ion-icon>
@@ -147,7 +154,15 @@ initial-scale=1.0">
         iconClose.addEventListener('click', () => {
             wrapper.classList.remove('active-popup');
         });
-
     </script>
+
+    <script>
+         const menuBtn = document.querySelector('.menu-btn');
+  const navigation = document.querySelector('.navigation');
+  menuBtn.addEventListener('click', () => {
+    menuBtn.classList.toggle('active');
+    navigation.classList.toggle('active');
+  });
+        </script>
     </body>
 </html>

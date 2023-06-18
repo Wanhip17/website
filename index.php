@@ -11,8 +11,6 @@
     unset($_SESSION['username']);
     header('location: register.php');
  }
-  
- 
 ?>
 
 <!DOCTYPE html>
@@ -23,28 +21,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name=" viewport" content="width=device-width,
 initial-scale=1.0">
-    <title>Resume | Pung </title>
+    <title>Welcome | Jutamanee C. </title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
     <link rel ="stylesheet" href="style.css">
     
 </head>
-
+<body>
     <header>
-        <h2 class="logo">Pung C.</h2>
-        <nav class="navigation">
+        <h2 class="logo">Jutamanee Chaladtoi</h2>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+        <div class="navigation-items">
             <a href="home.php">Home</a>
             <a href="profile.php">Profile</a>
-            <a href="experiance,php">Experiance</a>
+            <a href="experiance.php">Experiance</a>
+            <a href="activities.php">Activities</a>
             <a href="skills.php">Skills</a>
             <a href="contact.php">Contact</a>
             <button class="btnLogin-popup">Login</button>
-        </nav>
+        </div>
+        </div>
+        </div>
     </header>
-
-<body>
+  
+    <section class="ind">
     <div class="firstheader">
-       <h1><a href="home.php">Resume</a></h1>
-    </div>
+       <h1><a href="home.php">RESUME</a></h1>
     
     <div class="firstcontent">
         <!-- notification message -->
@@ -59,11 +61,24 @@ initial-scale=1.0">
             </div>
         <?php endif ?>
 
-<!-- logged in user information -->
-<?php if (isset($_SESSION['username'])) :?>
-     <p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
-     <p><a href="index.php?logout='1'" style = "color: red;">Logout</a></p>
-<?php endif ?> 
-</div>
+        <!-- logged in user information -->
+        <?php if (isset($_SESSION['username'])) :?>
+        <p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
+        <p><a href="index.php?logout='1'" style = "color: red;">Logout</a></p>
+        <?php endif ?> 
+            </div>
+    </div>
+        </section>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script>
+  const menuBtn = document.querySelector('.menu-btn');
+  const navigation = document.querySelector('.navigation');
+  menuBtn.addEventListener('click', () => {
+  menuBtn.classList.toggle('active');
+  navigation.classList.toggle('active');
+  });
+</script>
+
 </body>
 </html>
