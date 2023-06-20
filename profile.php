@@ -50,18 +50,12 @@ initial-scale=1.0">
         <div class="back">
             <h3>PERSONAL BACKGROUND<br></h3>
             <h6>----------------------------------------------------------</h6>
-            <h5><span class="icon">
-            <ion-icon name="logo-html5"></ion-icon>
-            </span> Fundamental Web Dev with HTML5 & CSS3, borntoDev School</h5> 
-            <h5><span class="icon">
-            <ion-icon name="podium-outline"></ion-icon>
-            </span> Excel for Everyone, borntoDev School</h5>
-            <h5><span class="icon">
-            <ion-icon name="analytics-outline"></ion-icon>
-            </span> Notion Database for Everyone, borntoDev School</h5>
-            <h5><span class="icon">
-            <ion-icon name="albums-outline"></ion-icon>
-            </span> Essential SQL for Everyone, borntoDev School</h5>    
+            <h4>I was born on September 17, 1999. My areas of personal interest encompass finance,
+                 marketing, technology, and communication. As the future unfolds, these domains will 
+                 assume growing importance and relevance in individuals' daily lives, catalyzing an
+                  expansion that fosters a future defined by amplified convenience and efficiency. 
+                  With this in mind, I am actively seeking opportunities to gain valuable experience within 
+                  these fields.</h4>    
         </div>
         <div class="edu">
             <h3>EDUCATION<br></h3>
@@ -69,15 +63,18 @@ initial-scale=1.0">
             <h4>King Mongkut's Institute of Technology Ladkrabang(KMITL)</h4> 
             <h4><span class="icon">
             <ion-icon name="stop-circle-outline"></ion-icon>
-            </span>Bachelor of Engineering in Telecommunication Engineering <p>   (2018-2021)</h4> 
+            </span>Bachelor of Engineering in Telecommunication Engineering (2018-2022)</h4> 
         </div>
         <div class="career">
             <h3>CAREER OBJECTIVE<br></h3>
             <h6>----------------------------------------------</h6>
-            <h4>I am actively pursuing a stimulating role within a renowned organization, aiming to utilize 
-                my knowledge, managerial acumen, and technical skills to propel the growth and performance of 
-                the organization. I am committed to consistently adapting to emerging technologies to ensure 
-                continuous improvement.</h4> 
+            <h4>I am currently seeking a position within a distinguished organization that will 
+                allow me to utilize my knowledge, managerial acumen, analytical skills, persuasive
+                 communication abilities, business acumen, and technical proficiency to enhance the 
+                 growth and performance of the company. I am dedicated to staying abreast of emerging
+                  technologies and consistently adapting to ensure continuous improvement. 
+
+</h4> 
         </div>
     </section>
 

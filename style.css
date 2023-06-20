@@ -664,7 +664,7 @@ header .navigation.active .navigation-items {
     position: absolute;
     width: 12%;
     top: 9rem;
-    left: 95px;
+    left: 3rem;
 }
 
 .pro .pic {
@@ -764,10 +764,10 @@ header .navigation.active .navigation-items {
 
 .profile .edu {
     position: absolute;
-    width: 41%;
-    bottom: 6rem;
-    height: 25%;
-    right: 28rem;
+    width: 48%;
+    bottom: 4rem;
+    height: 20%;
+    right: 26rem;
     color: rgb(0, 0, 0);
     margin: 5px 5px 5px 5px;
     background: transparent;
@@ -775,15 +775,15 @@ header .navigation.active .navigation-items {
     border: 1px solid #a94442 ;
     border-radius: 30px ;
     padding: 8px;
-    padding-left: 25px;
+    padding-left: 20px;
 }
 
 .profile .career {
     position: absolute;
-    width: 24%;
-    height: 60%;
-    top: 9rem;
-    right: 6rem;
+    width: 26%;
+    height: 66%;
+    bottom: 4rem;
+    right: 3rem;
     color: rgb(0, 0, 0);
     margin: 5px 5px 5px 5px;
     background: transparent;
@@ -796,10 +796,10 @@ header .navigation.active .navigation-items {
 
 .profile .back {
     position: absolute;
-    width: 35%;
-    height: 29%;
-    top: 9rem;
-    right: 28rem;
+    width: 48%;
+    height: 41%;
+    top: 8rem;
+    right: 26rem;
     color: rgb(0, 0, 0);
     margin: 5px 5px 5px 5px;
     background: transparent;
